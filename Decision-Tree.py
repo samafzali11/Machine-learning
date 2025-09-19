@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-df = pd.read_csv('diabetes_dataset_synthetic_100k.csv')
+df = pd.read_csv('diabetes.csv')
 X = df.drop('diabetes', axis=1)
 y = df['diabetes']
 
